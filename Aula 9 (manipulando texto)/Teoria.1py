@@ -1,0 +1,25 @@
+frase = 'Curso em video python'
+print(frase[0:14:2])  # fatiamento frase[começo:final:salto]
+
+print(frase.upper().count('O'))  # Upper faz tudo ficar em maiusculo e count conta quantas vezes aquela variavel
+# aparece na frase
+
+print(len(frase.strip()))  # len da a quantidade de carecteres da string e strip tira os espaços a mais
+
+print(frase.replace('video', 'narração'))  # replace troca uma palavra por outra
+print(frase.replace('o', '0'))
+print(frase)
+frase = frase.replace('n', 'm')  # a variavel frase so muda com o replace se eu atribuir o resultado nela
+
+print('Curs0' in frase)  # verifica se a variavel inicial está na strin e retorna false ou true
+
+print(frase.find('em'))  # procura varivavel e mostra onde ela inicia
+print(frase.lower().find('video'))
+
+dividido = (frase.split())
+print(dividido)
+print(dividido[3][3])
+# print('Oi')
+# print("""Monster How should I feel?
+# Creatures lie here
+# Looking through the windows""")  # """ pega o codigo pra baixo todo até o final das """
